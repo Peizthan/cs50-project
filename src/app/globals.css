@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* No definas background/color del body aquí.
+   Lo controlamos con clases en el layout. */
+
+.input { @apply w-full rounded-xl border border-cream-300 bg-cream-50 px-4 py-3 outline-none focus:ring-2 focus:ring-olive-600; }
